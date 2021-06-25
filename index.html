@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pomodoro timer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="pomodoro-container">
+    <div class="display"></div>
+    <ul class="buttons">
+      <li class="main button" style="display: block;">
+        <i class="main button" aria-hidden="false"></i>
+      </li>
+      <li class="reset button" style="display: block;">
+        <i class="reset button" aria-hidden="false"></i>
+      </li>
+    </ul>
+    <div class="sessions"></div>
+    <div class="tasks">
+      <h4>Total sessions</h4>
+      <p class="task-el">Work : <span class="work-sessions">0</span></p>
+      <p class="task-el">Break : <span class="break-sessions">0</span></p>
+    </div>
+  </div>
+  <audio id="song" src="audio/damn.mp3"></audio>
+  <script src="js/progressbar.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
