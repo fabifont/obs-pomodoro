@@ -21,3 +21,6 @@ This is a simple hardcoded pomodoro timer for OBS.
 2. Right click on it
 3. Interact
 4. Enjoy
+
+## Result
+![image](https://user-images.githubusercontent.com/38903806/123492969-55fc6f00-d61b-11eb-8a65-f95179fab8f0.png)
