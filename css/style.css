@@ -1,10 +1,10 @@
 :root {
   --infos-pos: 65%;
-  /* posizione delle info dal basso */
+  /* info pos from bottom */
   --buttons-pos: 60%;
-  /* posizione dei bottoni dall'alto */
+  /* buttons pos from top */
   --session-pos: 8%;
-  /* posizione della sessione dal basso */
+  /* session type pos from bottom */
 }
 
 @font-face {
