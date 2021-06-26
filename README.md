@@ -13,8 +13,9 @@ This is a simple hardcoded pomodoro timer for OBS.
 3. Add source -> Browser -> Create new (choose a name and check the checkbox) -> click "Ok"
 4. Check "Local file" -> Click the "URL" field and choose "index.html" that is inside the repo you cloned
 5. Set both "Width" and "Height" to 500
-6. Click "Refresh cache of current page"
-7. Click "Ok"
+6. If you want transparent background just replace the content of "Custom CSS" with `body, html { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }`
+7. Click "Refresh cache of current page"
+8. Click "Ok"
 
 ## How to use it
 1. Select the souce you created from the sources list
